@@ -1,0 +1,13 @@
+env_type : 'onestep_steady'
+temperature: 300.0
+final_time: 600
+output_file: output/onestep_steady.dat
+moves_file: output/onestep_steady_moves.dat
+write_output: True
+render_from: 50
+
+# One step parameters
+non_dimensional_activation_energy: 15.0 
+non_dimensional_heating_value: 4.0
+minimum_non_dimensional_damkohler_number: 1.0e-2 
+write_plots: True
